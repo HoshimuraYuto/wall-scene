@@ -1,0 +1,765 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "%lld media items" : {
+      "comment" : "Caption under the chosen folder name showing how many media files it contains; %lld is the count",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld 個のメディア"
+          }
+        }
+      }
+    },
+    "Always restore" : {
+      "comment" : "Picker option: always restore the managed wallpaper (re-beacon)",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "常に元に戻す"
+          }
+        }
+      }
+    },
+    "Ask" : {
+      "comment" : "Picker option: ask via dialog each time the wallpaper is changed externally",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "確認する"
+          }
+        }
+      }
+    },
+    "Beacon image not found: %@" : {
+      "comment" : "Error payload (WallSceneError.beaconWriteFailed) shown when the beacon image file for a space is missing on disk; %@ is the file path",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ビーコン画像が見つかりません: %@"
+          }
+        }
+      }
+    },
+    "Cancel" : {
+      "comment" : "Cancel button in the folder-mode confirmation alert",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "キャンセル"
+          }
+        }
+      }
+    },
+    "Choose a folder to show random media in each space" : {
+      "comment" : "Preview-row description for folder mode before a folder is chosen (String(localized:))",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "フォルダを選択すると、スペースごとにメディアをランダム表示します"
+          }
+        }
+      }
+    },
+    "Choose a video or image to fill the screen (videos and GIFs loop)" : {
+      "comment" : "Preview-row description for single mode before a file is chosen (String(localized:))",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "動画・画像を選択すると、画面いっぱいに表示します(動画・GIFはループ再生)"
+          }
+        }
+      }
+    },
+    "Choose…" : {
+      "comment" : "Button opening an NSOpenPanel to pick the media file or folder (used in both rows)",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "選択…"
+          }
+        }
+      }
+    },
+    "Controls what happens when the wallpaper of a space managed by Wall Scene is changed manually, for example in System Settings. “Ask” shows a dialog each time asking whether to restore it, and “Stop managing that space” leaves that space’s wallpaper untouched." : {
+      "comment" : "Footer explaining the external-change policy picker; quoted phrases must match the picker option labels Ask / Stop managing that space",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "システム設定などで壁紙を手動変更し、Wall Scene が管理していたスペースの壁紙が書き換わった場合の挙動です。「確認する」では都度ダイアログで管理に戻すか尋ね、「そのスペースを管理しない」を選ぶとそのスペースの壁紙は変更せずそのまま維持します。"
+          }
+        }
+      }
+    },
+    "Don’t Manage This Space" : {
+      "comment" : "NSAlert second button: keep the current wallpaper and exclude this space from Wall Scene management",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "このスペースを管理しない"
+          }
+        }
+      }
+    },
+    "Each space randomly shows one of %lld media items" : {
+      "comment" : "Preview-row description for folder mode; %lld is the number of media files found in the folder (String(localized:) interpolation)",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld 個のメディアからスペースごとにランダム表示します"
+          }
+        }
+      }
+    },
+    "Every 15 minutes" : {
+      "comment" : "Rotation interval option",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "15分ごと"
+          }
+        }
+      }
+    },
+    "Every 30 minutes" : {
+      "comment" : "Rotation interval option",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "30分ごと"
+          }
+        }
+      }
+    },
+    "Every 5 minutes" : {
+      "comment" : "Rotation interval option",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "5分ごと"
+          }
+        }
+      }
+    },
+    "Every day" : {
+      "comment" : "Rotation interval option",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1日ごと"
+          }
+        }
+      }
+    },
+    "Every hour" : {
+      "comment" : "Rotation interval option",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1時間ごと"
+          }
+        }
+      }
+    },
+    "Every minute" : {
+      "comment" : "Rotation interval option",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1分ごと"
+          }
+        }
+      }
+    },
+    "Failed to convert the video: %@" : {
+      "comment" : "Error alert text shown when exporting/converting a video for wallpaper playback fails; %@ is the underlying error detail",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "動画の変換に失敗しました: %@"
+          }
+        }
+      }
+    },
+    "Failed to create the HEIC export destination" : {
+      "comment" : "Error payload (WallSceneError.beaconWriteFailed) shown when the HEIC image destination for a beacon file cannot be created",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "HEIC 書き出し先の作成に失敗しました"
+          }
+        }
+      }
+    },
+    "Failed to export the HEIC file" : {
+      "comment" : "Error payload (WallSceneError.beaconWriteFailed) shown when finalizing the HEIC export of a beacon image fails",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "HEIC 書き出しに失敗しました"
+          }
+        }
+      }
+    },
+    "Failed to extract the first frame" : {
+      "comment" : "Error payload (WallSceneError.beaconWriteFailed) shown when the first frame of a video cannot be extracted for a beacon image",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "先頭フレームの取得に失敗しました"
+          }
+        }
+      }
+    },
+    "Failed to generate the beacon image: %@" : {
+      "comment" : "Error alert text shown when writing the beacon still image (used to identify Spaces) fails; %@ is the underlying error detail",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ビーコン画像の生成に失敗しました: %@"
+          }
+        }
+      }
+    },
+    "Failed to load settings: %@" : {
+      "comment" : "Error banner (state.lastError) shown in the settings UI when loading the app config file fails at startup; %@ is the system error description",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "設定の読み込みに失敗しました: %@"
+          }
+        }
+      }
+    },
+    "Failed to load the image: %@" : {
+      "comment" : "Error payload (WallSceneError.beaconWriteFailed) shown when reading a still image or GIF file for a beacon fails; %@ is the file name",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "画像の読み込みに失敗しました: %@"
+          }
+        }
+      }
+    },
+    "Failed to save settings: %@" : {
+      "comment" : "Error text shown when persisting app settings to disk fails; %@ is the system error description. Used both as an error banner (state.lastError) in AppControllerV2 (launch-at-login sync and general config save) and as error alert text via Contracts.swift",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "設定の保存に失敗しました: %@"
+          }
+        }
+      }
+    },
+    "Failed to scale the beacon image" : {
+      "comment" : "Error payload (WallSceneError.beaconWriteFailed) shown when scaling a source image/frame to the target beacon pixel size fails",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ビーコン画像のスケーリングに失敗しました"
+          }
+        }
+      }
+    },
+    "Failed to set launch at login: %@" : {
+      "comment" : "Error banner (state.lastError) shown when enabling/disabling the login item via SMAppService fails; %@ is the system error description",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ログイン時自動起動の設定に失敗しました: %@"
+          }
+        }
+      }
+    },
+    "Failed to set the wallpaper: %@" : {
+      "comment" : "Error alert text shown when setting the desktop wallpaper fails; %@ is the underlying error detail",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "壁紙の設定に失敗しました: %@"
+          }
+        }
+      }
+    },
+    "Fill screen" : {
+      "comment" : "Scaling option: crop/zoom to fill the screen",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "画面に合わせて拡大"
+          }
+        }
+      }
+    },
+    "Fit to screen (letterboxed)" : {
+      "comment" : "Scaling option: show the whole media with black bars",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "全体を表示(黒帯)"
+          }
+        }
+      }
+    },
+    "Folder" : {
+      "comment" : "LabeledContent label for the folder row in folder mode",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "フォルダ"
+          }
+        }
+      }
+    },
+    "Folder (random per space)" : {
+      "comment" : "Display mode picker option: random media per space from a folder (String(localized:) in ModeKind.title)",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "フォルダ(スペースごとにランダム)"
+          }
+        }
+      }
+    },
+    "Launch at login" : {
+      "comment" : "Toggle to auto-start the app at login",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ログイン時に自動起動"
+          }
+        }
+      }
+    },
+    "Mode" : {
+      "comment" : "Picker label for choosing the per-display wallpaper mode",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "モード"
+          }
+        }
+      }
+    },
+    "None selected" : {
+      "comment" : "Placeholder shown instead of a file/folder name when nothing is chosen yet (used in both single and folder modes; String(localized:))",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "未選択"
+          }
+        }
+      }
+    },
+    "Not connected" : {
+      "comment" : "Small capsule badge next to a display name in the section header when the display is disconnected",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "未接続"
+          }
+        }
+      }
+    },
+    "On battery power, in Low Power Mode, or when your Mac gets hot, videos pause and a still image (the first frame) is shown instead." : {
+      "comment" : "Footer text under the global toggles explaining the power-saving behavior",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "バッテリー駆動・低電力モード・本体高温時に、動画を止めて静止画(先頭フレーム)を表示します。"
+          }
+        }
+      }
+    },
+    "On login" : {
+      "comment" : "Rotation timing option: rotate at login",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ログイン時"
+          }
+        }
+      }
+    },
+    "On the space shown on “%@”, the wallpaper set by Wall Scene (%@) has been replaced with a different wallpaper. Do you want to let Wall Scene manage this space again?\n\nIf you choose “Don’t Manage This Space”, the current wallpaper is kept and Wall Scene will no longer manage this space. You can resume managing it anytime in settings." : {
+      "comment" : "NSAlert informativeText. First %@ is the display name, second %@ is the media file name assigned to the space",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「%@」のあるスペースで、Wall Scene が設定した壁紙(%@)が別の壁紙に置き換わっています。このスペースを Wall Scene の管理に戻しますか?\n\n「このスペースを管理しない」を選ぶと、このスペースの壁紙は今の状態のまま維持され、以後 Wall Scene はこのスペースに関与しません(設定画面からいつでも管理に戻せます)。"
+          }
+        }
+      }
+    },
+    "On wake from sleep" : {
+      "comment" : "Rotation timing option: rotate when the Mac wakes from sleep",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "スリープ解除時"
+          }
+        }
+      }
+    },
+    "Open Settings…" : {
+      "comment" : "Menu bar (status item) menu item that opens the settings window",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "設定を開く…"
+          }
+        }
+      }
+    },
+    "Open Wallpaper settings" : {
+      "comment" : "Button under the folder-mode note that opens the Wallpaper pane of System Settings",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "壁紙設定を開く"
+          }
+        }
+      }
+    },
+    "Pause playback" : {
+      "comment" : "Toggle in the global settings section that pauses all wallpaper video playback",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "再生を一時停止"
+          }
+        }
+      }
+    },
+    "Pause Playback" : {
+      "comment" : "Menu bar menu item with a checkmark state; toggles global pause of video wallpaper playback",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "再生を一時停止"
+          }
+        }
+      }
+    },
+    "Quit Wall Scene" : {
+      "comment" : "Menu bar menu item that quits the app; Wall Scene is the app name",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wall Scene を終了"
+          }
+        }
+      }
+    },
+    "Reassign now" : {
+      "comment" : "Button in the folder-mode controls that immediately re-randomizes the media assigned to each space",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今すぐ再割り当て"
+          }
+        }
+      }
+    },
+    "Reassign wallpapers" : {
+      "comment" : "LabeledContent title for the row holding the Reassign now button in folder mode",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "壁紙の再割り当て"
+          }
+        }
+      }
+    },
+    "Resume managing" : {
+      "comment" : "Button next to the unmanaged-spaces row that puts those spaces back under app management",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "管理に戻す"
+          }
+        }
+      }
+    },
+    "Resume Managing" : {
+      "comment" : "NSAlert default (first) button: re-beacon the space so Wall Scene manages it again",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "管理に戻す"
+          }
+        }
+      }
+    },
+    "Rotation interval" : {
+      "comment" : "Picker label for how often the folder-mode wallpaper rotates",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "切替間隔"
+          }
+        }
+      }
+    },
+    "Scaling" : {
+      "comment" : "Picker label for how media is scaled to the screen",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "表示スケーリング"
+          }
+        }
+      }
+    },
+    "Show a still image to save power" : {
+      "comment" : "Toggle enabling power-saving fallback to a still image",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "省電力時は静止画にする"
+          }
+        }
+      }
+    },
+    "Showing a still image to save power" : {
+      "comment" : "Status row shown at the top of the window while power-saving fallback is active",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "省電力モードで静止画に退避中"
+          }
+        }
+      }
+    },
+    "Single video or image" : {
+      "comment" : "Display mode picker option: one fixed video or image (String(localized:) in ModeKind.title)",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "単一の動画・画像"
+          }
+        }
+      }
+    },
+    "Stop managing that space" : {
+      "comment" : "Picker option: leave externally changed spaces unmanaged",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "そのスペースを管理しない"
+          }
+        }
+      }
+    },
+    "Switch to folder mode" : {
+      "comment" : "Alert title shown when the user switches a display to folder mode",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "フォルダモードへの変更"
+          }
+        }
+      }
+    },
+    "The macOS wallpaper settings are used as is" : {
+      "comment" : "Preview-row description for standard mode (String(localized:))",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "macOS 標準の壁紙設定がそのまま使われます"
+          }
+        }
+      }
+    },
+    "The selected video or image is shown on this display" : {
+      "comment" : "Preview-row description for single mode after a file is chosen (String(localized:))",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "選択した動画・画像をこの画面に表示します"
+          }
+        }
+      }
+    },
+    "The space you are viewing changes right away; other spaces change when you next visit them. Unmanaged spaces are not affected." : {
+      "comment" : "Subtitle under the Reassign wallpapers row explaining the immediate/on-visit semantics of manual reassignment",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "表示中のスペースはすぐに、他のスペースは次に訪れたときに切り替わります(管理外のスペースは対象外)。"
+          }
+        }
+      }
+    },
+    "The wallpaper of each space on this display will be replaced with a beacon image representing its assigned media (the first frame for videos and GIFs, or the image itself). The original wallpaper settings, including rotation, cannot be restored. Continue?" : {
+      "comment" : "Alert message body for the folder-mode confirmation",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "このディスプレイの各スペースの壁紙は、割り当てられたメディアを表すビーコン画像(動画・GIFは先頭フレーム、画像はその画像そのもの)に置き換わり、元の壁紙設定(特にローテーション)は復元できません。続けますか?"
+          }
+        }
+      }
+    },
+    "The wallpaper of each space will be replaced with a still image of the selected media (the first frame for videos and GIFs, or the image itself) and cannot be restored." : {
+      "comment" : "Info note (Label with info.circle icon) at the bottom of the single-mode controls",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "各スペースの壁紙は選択したメディアの静止画(動画・GIFは先頭フレーム、画像はその画像そのもの)に置き換わり、元には戻せません。"
+          }
+        }
+      }
+    },
+    "The wallpaper was changed manually" : {
+      "comment" : "NSAlert title (messageText) shown when Wall Scene detects the wallpaper it set was replaced by the user or another app",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "壁紙が手動で変更されました"
+          }
+        }
+      }
+    },
+    "This display is not currently connected" : {
+      "comment" : "Preview-row description when the display is disconnected (String(localized:))",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "現在このディスプレイは接続されていません"
+          }
+        }
+      }
+    },
+    "Turn off “Show on all Spaces” in System Settings > Wallpaper (spaces cannot be told apart while it is on). In folder mode, the wallpaper of each space will be replaced with a beacon image representing its media (the first frame for videos and GIFs, or the image itself) and cannot be restored." : {
+      "comment" : "Info note at the bottom of the folder-mode controls; “Show on all Spaces” should match Apple's localized System Settings wording",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "システム設定 > 壁紙 の「すべての操作スペースで表示」をオフにしてください(オンのままだとスペースを識別できません)。フォルダモードにすると、各スペースの壁紙はメディアを表すビーコン画像(動画・GIFは先頭フレーム、画像はその画像そのもの)に置き換わり、元には戻せません。"
+          }
+        }
+      }
+    },
+    "Unmanaged spaces on %@: %lld" : {
+      "comment" : "LabeledContent row; %@ is the display name, %lld is the number of unmanaged spaces (phrased to avoid the English plural issue with a count of 1)",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@: 管理外のスペースが %lld 件"
+          }
+        }
+      }
+    },
+    "Use macOS default" : {
+      "comment" : "Display mode picker option: leave the wallpaper to macOS (String(localized:) in ModeKind.title)",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "macOS 標準に任せる"
+          }
+        }
+      }
+    },
+    "Video or image" : {
+      "comment" : "LabeledContent label for the media file row in single mode",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "動画・画像"
+          }
+        }
+      }
+    },
+    "Wall Scene Settings" : {
+      "comment" : "Title of the settings window (NSWindow.title), shown in the window title bar",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wall Scene 設定"
+          }
+        }
+      }
+    },
+    "When wallpaper is changed manually" : {
+      "comment" : "Picker label for the external wallpaper change policy",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "壁紙が手動で変更されたら"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
